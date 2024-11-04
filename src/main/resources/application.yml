@@ -1,0 +1,23 @@
+spring:
+  application:
+    name: vodafone-assessment
+  data:
+    mongodb:
+      authentication-database: admin
+      database: meteo
+      port: 27017
+      host: mongo
+      username: root
+      password: example
+  kafka:
+    bootstrap-servers: kafka:29092
+
+springdoc:
+  api-docs:
+    enabled: true
+  swagger-ui:
+    enabled: true
+    path: /doc/swagger-ui.html
+
+open-meteo:
+  url: https://api.open-meteo.com/v1

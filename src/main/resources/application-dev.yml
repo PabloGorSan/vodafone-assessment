@@ -1,0 +1,13 @@
+spring:
+  application:
+    name: vodafone-assessment
+  data:
+    mongodb:
+      authentication-database: admin
+      database: meteo
+      username: root
+      password: example
+      port: 27017
+      host: localhost
+  kafka:
+    bootstrap-servers: localhost:9092
