@@ -2,16 +2,6 @@
 
 This project allow users to get a forecast of the current temperature in different latitudes and longitudes.
 
-# Endpoints
-
-GET localhost:8080/forecast?latitude=,longitude=
-
-DELETE localhost:8080/forecast?latitude=,longitude=
-
-# Swagger
-
-http://localhost:8080/doc/swagger-ui/index.html
-
 # How to run
 
 1. Generate docker image: **docker build -t vf-assessment** .
@@ -27,4 +17,22 @@ network as the mongo database.
 You must have a mongo instance on port **27017**.
 
 **docker run -p 8080:8080 --name vf-assessment --network my_network -d vf-assessment**
+
+# Swagger
+
+http://localhost:8080/doc/swagger-ui/index.html
+
+# Kafdrop
+
+http://localhost:9000/
+
+# Endpoints
+
+GET localhost:8080/forecast?latitude=,longitude=
+
+DELETE localhost:8080/forecast?latitude=,longitude=
+
+
+
+
 
