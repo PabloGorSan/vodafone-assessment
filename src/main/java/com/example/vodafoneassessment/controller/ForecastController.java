@@ -4,7 +4,6 @@ import com.example.vodafoneassessment.Utils.ForecastMapper;
 import com.example.vodafoneassessment.business.ForecastService;
 import com.example.vodafoneassessment.business.KafkaProducerService;
 import lombok.RequiredArgsConstructor;
-import org.springframework.beans.factory.annotation.Value;
 import org.springframework.web.bind.annotation.*;
 
 import static org.mapstruct.factory.Mappers.getMapper;
